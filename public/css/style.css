@@ -3,8 +3,18 @@ body {
     margin: 30px 8vw 10vh 8vw;
 }
 
+h3 {
+    text-align: center;
+}
+
+p {
+    border: 1px solid grey;
+    margin: 0;
+    padding: 8px;
+}
+
 .callsheet {
-    display: flex;
+    display: flex; 
 }
 
 #names {
@@ -25,7 +35,7 @@ body {
     width: 20vw; 
 }
 
-#result { 
+#results { 
     display: flex;
     flex-direction: column;
     width: 20vw; 
