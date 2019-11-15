@@ -3,7 +3,30 @@ body {
     margin: 30px 8vw 10vh 8vw;
 }
 
-li {
-    font-size: 22px;
-    padding: 10px;
+.callsheet {
+    display: flex;
+}
+
+#names {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+
+#numbers { 
+    display: flex;
+    flex-direction: column;
+    width: 20vw; 
+}
+
+#answers { 
+    display: flex;
+    flex-direction: column;
+    width: 20vw; 
+}
+
+#result { 
+    display: flex;
+    flex-direction: column;
+    width: 20vw; 
 }
