@@ -3,10 +3,15 @@ body {
     margin: 30px 8vw 10vh 8vw;
 }
 
+h1 {
+    font-size: 22px;
+    width: 40vw;
+}
+
 h3 {
     text-align: center;
 }
-
+ 
 p {
     border: 1px solid grey;
     margin: 0;
@@ -15,6 +20,10 @@ p {
 
 .callsheet {
     display: flex; 
+}
+
+.header {
+    display: flex;
 }
 
 #names {
@@ -26,17 +35,17 @@ p {
 #numbers { 
     display: flex;
     flex-direction: column;
-    width: 20vw; 
+    width: 15vw; 
 }
 
 #answers { 
     display: flex;
     flex-direction: column;
-    width: 20vw; 
+    width: 10vw; 
 }
 
 #results { 
     display: flex;
     flex-direction: column;
-    width: 20vw; 
+    width: 35vw; 
 }

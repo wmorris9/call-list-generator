@@ -31,6 +31,19 @@ fetch('/answer').then((response) => {
             const listElement = document.createElement("p")
             listElement.appendChild(document.createTextNode(`${answer}`))
             answers.appendChild(listElement)
+
+            fetch('/result').then((response) => {
+                response.json().then((result) => {
+                    let listElement = document.createElement("p")
+                    if (answer === 'A') {
+                        listElement.appendChild(document.createTextNode(`${result}`))
+                    } else {
+                        listElement.appendChild(document.createTextNode(`No Answer`))
+                    }
+                    results.appendChild(listElement)
+                })
+            })
+
         })
     })
 })
