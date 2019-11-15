@@ -9,13 +9,14 @@ h1 {
 }
 
 h3 {
+    font-size: 16px;
     text-align: center;
 }
  
 p {
     border: 1px solid grey;
     margin: 0;
-    padding: 8px;
+    padding: 4px;
 }
 
 .callsheet {
@@ -29,13 +30,13 @@ p {
 #names {
     display: flex;
     flex-direction: column;
-    width: 20vw;
+    width: 30vw;
 }
 
 #numbers { 
     display: flex;
     flex-direction: column;
-    width: 15vw; 
+    width: 20vw; 
 }
 
 #answers { 
@@ -47,5 +48,5 @@ p {
 #results { 
     display: flex;
     flex-direction: column;
-    width: 35vw; 
+    width: 40vw; 
 }
