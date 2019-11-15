@@ -19,7 +19,7 @@ const phoneLookup = (callback) => {
     const callList = []
     randomNames((error, body) => {
         for (let i = 0; i < callListLength; i++) {
-            callList.push(`${body[i].name} ${body[i].surname}: 208 ${prefixes[Math.floor((Math.random() * prefixes.length))]} ${Math.floor(Math.random() * (Math.floor(10000) - Math.ceil(1000)) + Math.ceil(1000))}`)
+            callList.push(`${body[i].name} ${body[i].surname}: 208-${prefixes[Math.floor((Math.random() * prefixes.length))]}-${Math.floor(Math.random() * (Math.floor(10000) - Math.ceil(1000)) + Math.ceil(1000))}`)
         }
         callback(undefined, callList)
     })
