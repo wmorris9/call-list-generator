@@ -13,7 +13,7 @@ const publicDirectoryPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templates/views')
 const partialsPath = path.join(__dirname, '../templates/partials')
 
-const callListLength = 29
+const callListLength = 30
 
 app.set('view engine', 'hbs') 
 app.set('views', viewsPath)
