@@ -37,8 +37,7 @@ p {
 #numbers { 
     display: flex;
     flex-direction: column;
-    min-width: 105px;
-    width: 20vw; 
+    width: 125px;
 }
 
 #answers { 
