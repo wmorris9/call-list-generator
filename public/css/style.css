@@ -17,6 +17,7 @@ p {
     border: 1px solid grey;
     height: 16px;
     margin: 0;
+    min-width: 125px;
     padding: 4px;
 }
 
