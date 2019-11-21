@@ -38,7 +38,6 @@ p {
 #numbers { 
     display: flex;
     flex-direction: column;
-    width: 125px;
 }
 
 #answers { 
