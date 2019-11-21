@@ -22,7 +22,9 @@ hbs.registerPartials(partialsPath)
 app.use(express.static(publicDirectoryPath))
 
 app.get('', (req, res) => {
-    res.render('index')
+    res.render('index', {
+        date: `${new Date().getMonth() + 1}/${new Date().getDate()}/${new Date().getFullYear()}`
+    })
 })
 
 app.get('/names', (req, res) => {
