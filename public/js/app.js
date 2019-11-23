@@ -9,7 +9,7 @@ fetch('/names').then((response) => {
     response.json().then((nameList) => {
         nameList.forEach((person) => {
             const listElement = document.createElement("p")
-            listElement.appendChild(document.createTextNode(``))
+            listElement.appendChild(document.createTextNode(`${person}`))
             names.appendChild(listElement)
         })
     })
